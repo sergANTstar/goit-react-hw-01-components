@@ -1,11 +1,11 @@
 import css from './Profile.module.css';
-import{ProfilleDescription} from './ProfileDescription';
+import{ProfileDescription} from './ProfileDescription';
 import {ProfileStats} from './ProfileStats';
 
 export const Profile = (props) => {
     return (
         <div className={css.profile}>
-            <ProfilleDescription
+            <ProfileDescription
                 username={props.username}
                 tag={props.tag}
                 location={props.location}

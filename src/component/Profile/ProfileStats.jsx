@@ -6,16 +6,16 @@ export const ProfileStats = ({stats: {followers, views, likes}}) => {
         <div>
             <ul className={css.stats}>
                 <li className={css.stats__item}>
-                    <p className={css.label}>Folowers</p>
-                    <p className={css.quantity}>{followers}</p>
+                    <span className={css.label}>Folowers</span>
+                    <span className={css.quantity}>{followers}</span>
                 </li>
                 <li className={css.stats__item}>
-                    <p className={css.label}>Views</p>
-                    <p className={css.quantity}>{views}</p>
+                    <span className={css.label}>Views</span>
+                    <span className={css.quantity}>{views}</span>
                 </li>
                  <li className={css.stats__item}>
-                    <p className={css.label}>Likes</p>
-                    <p className={css.quantity}>{likes}</p>
+                    <span className={css.label}>Likes</span>
+                    <span className={css.quantity}>{likes}</span>
                 </li>
             </ul>
         </div>
