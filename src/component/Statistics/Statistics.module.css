@@ -1,7 +1,6 @@
 .statistics {
     background-color: white;
-    border: 2px solid grey;
-    border-radius: 5px;
+    border-radius: 20px;
     width: 360px;
     margin-top: 20px;
     box-shadow: 1px 1px 2px 2px rgb(209, 204, 204);
@@ -11,13 +10,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;}
+    padding: 20px;
+
+}
 
 .statList {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #cac4c4;
+    border-radius: 20px;
 }
 
 .item {
@@ -30,10 +32,13 @@
 
 .item:first-child {
     background-color: rgb(23, 207, 207);
+    border-left: none;
+    border-bottom-left-radius: 20px;
 }
 
 .item:last-child {
     background-color: rgb(104, 194, 104);
+    border-bottom-right-radius: 20px;
 }
 
 .item:nth-child(2) {
@@ -41,8 +46,9 @@
 }
 
 .item:nth-child(4) {
-    background-color: rgb(159, 119, 45)
-    ;
+    background-color: rgb(159, 119, 45);
+    border-right: none;
+  
 }
 
 .label {

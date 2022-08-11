@@ -1,7 +1,7 @@
 .profile {
+    position: relative;
     background-color: white;
-    border: 2px solid grey;
-    border-radius: 5px;
+    border-radius: 20px;
     width: 360px;
     box-shadow: 1px 1px 2px 2px rgb(209, 204, 204);
 }
@@ -38,11 +38,12 @@
 }
 
 .stats {
-    position: relative;
     display: flex;
     justify-content:space-around;
     align-items: center;
     background-color: #e8f7ff;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
 .stats__item {
@@ -51,6 +52,8 @@
     flex-direction: column;
     padding: 16px;
     border-top: 1px solid gray;
+    
+   
 }
 .stats__item:nth-child(2){
     border-top: 1px solid gray;

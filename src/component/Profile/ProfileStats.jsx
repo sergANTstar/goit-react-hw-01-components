@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 
 export const ProfileStats = ({stats: {followers, views, likes}}) => {
     return (
-        <div>
             <ul className={css.stats}>
                 <li className={css.stats__item}>
                     <span className={css.label}>Folowers</span>
@@ -18,7 +17,6 @@ export const ProfileStats = ({stats: {followers, views, likes}}) => {
                     <span className={css.quantity}>{likes}</span>
                 </li>
             </ul>
-        </div>
     );
 }
 

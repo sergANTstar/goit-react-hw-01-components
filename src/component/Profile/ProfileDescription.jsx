@@ -1,3 +1,4 @@
+
 import css from './Profile.module.css';
 import PropTypes from 'prop-types';
 
@@ -10,7 +11,7 @@ export function ProfileDescription({ username, tag, location, avatar }) {
       <p className={css.location}>{location}</p>
     </div>
   );
-}
+};
 
 ProfileDescription.propTypes = {
   username: PropTypes.string.isRequired,
